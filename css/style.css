@@ -246,7 +246,7 @@ h2 {
 .deploy_menu {
   float: left;
   width: 35%;
-  border: 1px solid black;
+  height: 100%;
 }
 .deploy_menu ul li {
   list-style: none;
@@ -257,12 +257,22 @@ h2 {
   color: #707C98;
 }
 
-.deploy_stages {
+
+.deploy_stages_fl {
   float: left;
   width: 65%;
-  border: 1px solid red;
 }
-.deploy_stages::after {
+.deploy_stages_fl::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.deploy_stages_fr {
+  float:right;
+  width: 65%;
+}
+.deploy_stages_fr::after {
   content: "";
   display: table;
   clear: both;
@@ -272,7 +282,13 @@ h2 {
   float: left;
   width: 50%;
   height: 50%;
-  border: 1px solid blue;
+  padding-bottom: 30px;
+}
+.deploy_col img {
+  height: 40px;
+}
+.deploy_col p {
+  color: #707C98;
 }
 
 /* media query sezione md */
@@ -315,7 +331,6 @@ h2 {
 
   /* zona deploy */
 
-  .deploy_col,
   .deploy_menu_container {
     padding-left: 20px;
     padding-right: 20px;
@@ -371,7 +386,9 @@ h2 {
 
   /* zona deploy */
 
-  .deploy_col,
+  .deploy_col {
+    padding-left: 10px;
+  }
   .deploy_menu_container {
     padding-left: 20px;
     padding-right: 20px;
@@ -388,7 +405,8 @@ h2 {
   .deploy_stages {
     height: auto;
   }
-  .deploy_stages,
+  .deploy_stages_fl,
+  .deploy_stages_fr,
   .deploy_col {
     width: 100%;
   }
