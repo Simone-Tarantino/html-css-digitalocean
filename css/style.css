@@ -246,14 +246,12 @@ h2 {
 
 .deploy_menu {
   float: left;
-  height: 300px;
   width: 35%;
   border: 1px solid black;
 }
 
 .deploy_stages {
   float: left;
-  height: 300px;
   width: 65%;
   border: 1px solid red;
 }
@@ -307,6 +305,14 @@ h2 {
     padding-left: 20px;
     padding-right: 20px;
   }
+
+  /* zona deploy */
+
+  .deploy_col,
+  .deploy_menu_container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 /* media query sezione xs */
@@ -354,5 +360,29 @@ h2 {
 
   .logo_info {
     background-size: 50%;
+  }
+
+  /* zona deploy */
+
+  .deploy_col,
+  .deploy_menu_container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .deploy_text {
+    width: 100%;
+  }
+
+  .deploy_menu {
+    width: 100%;
+  }
+
+  .deploy_stages {
+    height: auto;
+  }
+  .deploy_stages,
+  .deploy_col {
+    width: 100%;
   }
 }
