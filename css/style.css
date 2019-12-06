@@ -180,8 +180,14 @@ h2 {
   padding-bottom: 30px;
 }
 .partners_logo a {
+  display: inline-block;
   color: #006AFF;
   text-decoration: none;
+  margin: 20px 0 30px;
+}
+.partners_logo a::after {
+  content: ">";
+  margin-left: 10px;
 }
 
 .partners_logo_title {
@@ -192,52 +198,35 @@ h2 {
 
 /* zona loghi */
 
-.logo_n1 {
+.logo_info {
   height: 80px;
-  background-image: url("../img/docker-bab60eeb.png");
   background-position: center;
-  background-size: contain;
+  background-size: 80%;
   background-repeat: no-repeat;
+}
+
+.logo_n1 {
+  background-image: url("../img/docker-bab60eeb.png");
 }
 
 .logo_n2 {
-  height: 80px;
   background-image: url("../img/gitlab-166e2067.png");
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 .logo_n3 {
-  height: 80px;
   background-image: url("../img/slack-e20293da.png");
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 .logo_n4 {
-  height: 80px;
   background-image: url("../img/hashicorp-4431df79.png");
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 .logo_n5 {
-  height: 80px;
   background-image: url("../img/wework-be6eab32.png");
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 .logo_n6 {
-  height: 80px;
   background-image: url("../img/splunk-06b17d75.png");
-  background-position: center;
-  background-size: 150px;
-  background-repeat: no-repeat;
 }
 
 /* media query sezione md */
@@ -269,6 +258,13 @@ h2 {
   }
   .main_header_text h1 {
     font-size: 40px;
+  }
+
+  /* sezione div con loghi */
+
+  .partners_logo {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
@@ -306,5 +302,16 @@ h2 {
 
   .get_started_div {
     margin-top: 0;
+  }
+
+  /* sezione div con loghi */
+
+  .partners_logo {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .logo_info {
+    background-size: 50%;
   }
 }
