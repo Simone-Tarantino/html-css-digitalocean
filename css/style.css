@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 h2 {
@@ -21,6 +21,7 @@ h2 {
   font-weight: bold;
   color: black;
   margin-right: 8px;
+  font-size: 15px;
 }
 .navbar ul li a i {
   font-size: 12px;
@@ -77,7 +78,6 @@ h2 {
 }
 
 .main_header_text {
-  font-size: 20px;
   color: white;
 }
 .main_header_text h1 {
@@ -234,7 +234,6 @@ h2 {
 .deploy_text {
   padding: 50px 0;
   text-align: center;
-  font-size: 20px;
   line-height: 30px;
   color: #707C98;
 }
@@ -248,6 +247,14 @@ h2 {
   float: left;
   width: 35%;
   border: 1px solid black;
+}
+.deploy_menu ul li {
+  list-style: none;
+  border-left: 2px solid #707C98;
+  margin-left: 10px;
+  text-transform: capitalize;
+  padding: 10px 10px;
+  color: #707C98;
 }
 
 .deploy_stages {
@@ -293,7 +300,7 @@ h2 {
   }
 
   .main_header_text {
-    font-size: 20px;
+
   }
   .main_header_text h1 {
     font-size: 40px;
