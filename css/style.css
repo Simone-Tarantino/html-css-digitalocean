@@ -87,7 +87,6 @@ h2 {
 /* sezione principale header - zona testo sinistra */
 
 .main_header_text {
-  border: 1px solid blue;
   padding: 100px 30px 100px 0;
 }
 .main_header_text p {
@@ -166,6 +165,17 @@ h2 {
   text-align: center;
   margin: 20px 0 35px;
   font-size: 12px;
+}
+
+/* main */
+/* div logo partner */
+
+.partners_logo {
+  background-color: #F3F5F9;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 50px;
+  color: #707C98;
 }
 
 /* media query sezione md */
