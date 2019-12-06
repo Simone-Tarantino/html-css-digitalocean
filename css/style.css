@@ -283,9 +283,11 @@ h2 {
   width: 50%;
   height: 50%;
   padding-bottom: 30px;
+  padding-right: 10px;
 }
 .deploy_col img {
   height: 40px;
+  margin-bottom: 20px;
 }
 .deploy_col p {
   color: #707C98;
@@ -400,6 +402,10 @@ h2 {
 
   .deploy_menu {
     width: 100%;
+  }
+
+  .deploy_stages_fl .deploy_col:first-child {
+    padding-top: 20px;
   }
 
   .deploy_stages {
