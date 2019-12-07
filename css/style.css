@@ -390,14 +390,70 @@ h2 {
 .around_the_world {
   background: rgb(0,30,153);
   background: radial-gradient(circle, rgba(0,30,153,1) 0%, rgba(0,66,192,1) 0%, rgba(0,53,178,1) 66%, rgba(0,53,178,1) 81%, rgba(0,52,176,1) 90%);
+  color: white;
 }
 .around_the_world h2 {
   text-align: center;
-  color: white;
   font-size: 35px;
   padding-top: 70px;
 }
 
+.atw_container_l {
+  float: left;
+  width: calc(50% - 10px);
+  padding-right: 10px;
+  margin: 10px 0 70px;
+}
+
+.atw_container_r {
+  float: right;
+  width: calc(50% - 10px);
+  height: 200px;
+  padding-left: 10px;
+  margin: 10px 0 70px;
+}
+
+.atw_row {
+  font-size: 15px;
+  border-top: 1px solid white;
+  padding: 10px 15px;
+}
+.atw_row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.around_the_world .container .atw_container_l .atw_row:first-child,
+.around_the_world .container .atw_container_r .atw_row:first-child {
+  border-top: 0;
+}
+
+.atw_server_name,
+.atw_server_nation {
+  float: left;
+}
+
+.atw_server_name {
+  padding-right: 50px;
+  text-transform: uppercase;
+}
+
+.atw_server_nation {
+  text-transform: capitalize;
+  color: #AAB9E2;
+}
+
+.atw_test_speed {
+  float: right;
+}
+.atw_test_speed a {
+  color: #00D3D2;
+  text-decoration: none;
+}
+.atw_test_speed a::after {
+  content: ">";
+  margin-left: 10px;
+}
 
 /* media query sezione md */
 
