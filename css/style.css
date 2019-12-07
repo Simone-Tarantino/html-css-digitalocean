@@ -237,6 +237,10 @@ h2 {
 
 /* sezione deploy */
 
+.deploy {
+  margin-bottom: 40px;
+}
+
 .deploy_text {
   padding: 50px 0;
   text-align: center;
@@ -244,7 +248,7 @@ h2 {
   color: #707C98;
 }
 .deploy_text h2 {
-  font-size: 30px;
+  font-size: 35px;
   color: #031C4E;
   padding: 70px 0 20px;
 }
@@ -262,7 +266,6 @@ h2 {
   padding: 10px 10px;
   color: #707C98;
 }
-
 
 .deploy_stages_fl {
   float: left;
@@ -353,6 +356,7 @@ h2 {
 
 .features_container {
   font-size: 15px;
+  padding-bottom: 70px;
 }
 .features_container img {
   height: 40px;
@@ -360,7 +364,7 @@ h2 {
 }
 .features_container h2 {
   text-align: center;
-  font-size: 30px;
+  font-size: 35px;
   color: #031C4E;
   padding-top: 70px;
   padding-bottom: 30px;
@@ -379,6 +383,19 @@ h2 {
 .features_container a::after {
   content: ">";
   margin-left: 10px;
+}
+
+/* sezione around the world */
+
+.around_the_world {
+  background: rgb(0,30,153);
+  background: radial-gradient(circle, rgba(0,30,153,1) 0%, rgba(0,66,192,1) 0%, rgba(0,53,178,1) 66%, rgba(0,53,178,1) 81%, rgba(0,52,176,1) 90%);
+}
+.around_the_world h2 {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  padding-top: 70px;
 }
 
 
