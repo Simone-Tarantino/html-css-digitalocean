@@ -75,6 +75,8 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .main_header_text {
@@ -132,6 +134,7 @@ h2 {
   text-decoration: none;
   color: white;
   font-weight: bold;
+  font-size: 15px;
 }
 
 .google_btn {
@@ -143,6 +146,7 @@ h2 {
   border: 1px solid rgb(236, 236, 236);
   box-shadow: 5px 5px 5px -3px #DADADA;
   display: block;
+  font-size: 15px;
 }
 .google_btn::after {
   content: "";
@@ -175,6 +179,8 @@ h2 {
   text-align: center;
   padding-top: 50px;
   color: #707C98;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .partners_logo h4 {
   padding-bottom: 30px;
@@ -240,7 +246,7 @@ h2 {
 .deploy_text h2 {
   font-size: 30px;
   color: #031C4E;
-  margin-bottom: 15px;
+  padding: 70px 0 20px;
 }
 
 .deploy_menu {
@@ -284,6 +290,7 @@ h2 {
   height: 50%;
   padding-bottom: 30px;
   padding-right: 10px;
+  font-size: 15px;
 }
 .deploy_col img {
   height: 40px;
@@ -291,6 +298,8 @@ h2 {
 }
 .deploy_col p {
   color: #707C98;
+  margin-top: 10px;
+  line-height: 20px;
 }
 
 /* zona slider top */
@@ -333,6 +342,43 @@ h2 {
   padding-top: 10px;
   font-size: 10px;
   margin-bottom: 70px;
+}
+
+/* sezione features */
+
+.features {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.features_container {
+  font-size: 15px;
+}
+.features_container img {
+  height: 40px;
+  margin-bottom: 20px;
+}
+.features_container h2 {
+  text-align: center;
+  font-size: 30px;
+  color: #031C4E;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+.features_container p {
+  line-height: 20px;
+  margin-top: 10px;
+  padding-right: 30px;
+}
+.features_container a {
+  text-decoration: none;
+  color: #006AFF;
+  display: inline-block;
+  margin-top: 10px;
+}
+.features_container a::after {
+  content: ">";
+  margin-left: 10px;
 }
 
 
@@ -395,6 +441,13 @@ h2 {
   .slider_top_img img {
     height: 250px;
   }
+
+  /* sezione features */
+
+  .features {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 /* media query sezione xs */
@@ -418,8 +471,7 @@ h2 {
 
   /* sezione principale header */
   .main_header_container {
-    padding-left: 20px;
-    padding-right: 20px;
+
   }
   .main_header_text {
     font-size: 30px;
@@ -427,6 +479,10 @@ h2 {
   }
   .main_header_text h1 {
     font-size: 50px;
+    padding-bottom: 10px;
+  }
+  .main_header_text p {
+    line-height: 35px;
   }
 
   .get_started_div {
@@ -456,6 +512,11 @@ h2 {
 
   .deploy_text {
     width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .deploy_text h2 {
+    font-size: 45px;
   }
 
   .deploy_menu {
@@ -482,11 +543,29 @@ h2 {
     padding-right: 20px;
   }
 
+  .slider_top_t_text h2 {
+    font-size: 45px;
+  }
+
   .slider_top_img i {
     font-size: 20px;
     line-height: 200px;
   }
   .slider_top_img img {
     height: 200px;
+  }
+
+  /* sezione features */
+
+  .features {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .features_container h2 {
+    font-size: 45px;
+  }
+  .features_container img {
+    margin-top: 20px;
   }
 }
