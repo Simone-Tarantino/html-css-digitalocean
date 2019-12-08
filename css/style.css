@@ -455,6 +455,79 @@ h2 {
   margin-left: 10px;
 }
 
+/* sezione slider_bot */
+
+.slider_bot {
+  background-color: #F3F5F9;
+  text-align: center;
+}
+
+.slider_bot_text h2 {
+  font-size: 30px;
+  color: #031C4E;
+  padding: 70px 0 20px;
+}
+
+.slider_bot_div {
+  height: 400px;
+  width: 100%;
+  position: relative;
+}
+
+.slider_bot_div i {
+  font-size: 40px;
+  padding: 0 20px;
+  line-height: 350px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.slider_circles i {
+  color: #006AFF;
+  font-size: 10px;
+  margin-bottom: 70px;
+}
+
+.slider_bot_div_white {
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: inline-block;
+  padding: 50px 5px;
+}
+.slider_bot_div_white img {
+  padding-bottom: 20px;
+}
+.slider_bot_div_white p {
+  line-height: 30px;
+  margin-bottom: 10px;
+  color: #6F7B97;
+}
+.slider_bot_div_white span {
+  display: block;
+  font-size: 15px;
+  color: #031C4E;
+}
+
+.author_bold {
+  font-weight: bold;
+}
+
+.slider_bot_div_white a {
+  text-decoration: none;
+  color: #006AFF;
+  margin-top: 30px;
+  font-size: 15px;
+  display: inline-block;
+}
+.slider_bot_div_white a::after {
+  content: ">";
+  margin-left: 10px;
+}
+
 /* media query sezione md */
 
 @media screen and (max-width: 992px) and (min-width: 768px) {
@@ -520,6 +593,18 @@ h2 {
   .features {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  /* sezione awt */
+
+  .around_the_world {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .atw_container_l,
+  .atw_container_r {
+    width: 100%;
   }
 }
 
@@ -640,5 +725,17 @@ h2 {
   }
   .features_container img {
     margin-top: 20px;
+  }
+
+  /* sezione awt */
+
+  .around_the_world {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .atw_container_l,
+  .atw_container_r {
+    width: 100%;
   }
 }
