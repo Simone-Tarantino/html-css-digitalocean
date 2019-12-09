@@ -565,12 +565,22 @@ footer ul li {
 }
 footer ul li a {
   color: #AAB9E2;
+  text-decoration: none;
 }
 footer span {
   display: block;
 }
 footer span.darker {
   color: #586785;
+}
+footer .col-lg-2 h4 {
+  text-transform: capitalize;
+  color: white;
+}
+footer .col-lg-2 ul li {
+  display: block;
+  font-size: 15px;
+  text-transform: capitalize;
 }
 
 
@@ -667,6 +677,18 @@ footer span.darker {
 
   .col-lg-12.slider_circles {
     margin-top: 40px;
+  }
+
+  /* footer */
+
+  footer {
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
+
+  footer .col-lg-2 h4 {
+    padding-top: 20px;
   }
 }
 
@@ -813,5 +835,16 @@ footer span.darker {
 
   .col-lg-12.slider_circles {
     margin-top: 40px;
+  }
+
+  /* footer */
+
+  footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  footer .col-lg-2 h4 {
+    padding-top: 20px;
   }
 }
